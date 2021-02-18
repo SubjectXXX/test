@@ -1,0 +1,41 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+
+[*.component.html]
+indent_size = 2
+max_line_length = 140
+
+[*.json]
+indent_size = 2
+max_line_length = 140
+
+[*.ts]
+indent_size = 2
+max_line_length = 140
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{yml,yaml}]
+indent_size = 2
+
+[*.js]
+indent_size = 2
+max_line_length = 80
+
+[*.php]
+max_line_length = 120
+
+[{*.css, *.scss}]
+indent_size = 2
+max_line_length = 80
+
+[*.blade.php]
+insert_final_newline = false
